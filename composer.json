@@ -1,0 +1,22 @@
+{
+    "name": "jfvil/my-great-api",
+    "description": "api rest full",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^3.5@dev",
+        "illuminate/database": "^7.0@dev",
+        "polarising/bcrypt": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "juanfer",
+            "email": "jfvilladiego3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
